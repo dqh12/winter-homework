@@ -1,0 +1,270 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gilroy-regular, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-feature-settings: "tnum";
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.first-images {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    height: 32px;
+    left: 5%;
+    top: 20px;
+    color: blue;
+}
+
+.big-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.top-nav {
+    width: 100%;
+    height: 10%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 96px;
+}
+
+.a {
+    font-size: 14px;
+    line-height: 64px;
+    margin: 0 0 0 20px;
+    margin-left: 40px;
+}
+
+.nav-a {
+    display: block;
+    height: 100%;
+    z-index: 10;
+    color: black;
+    position: relative;
+    font-weight: 300;
+}
+
+.nav-a.active {
+    color: #3370ff;
+    font-weight: 800;
+}
+
+.nav-a.active:after {
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    left: 24px;
+    bottom: 10px;
+    width: 24px;
+    border-bottom: 3px solid #3370ff;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0px 0px 20px;
+    font-weight: 400;
+    z-index: 10;
+}
+
+.margin {
+    position: relative;
+}
+
+.margin:before {
+    content: "";
+    display: block;
+    border-right: 1px solid black;
+    height: 12px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+}
+
+.Framework {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.big-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container.active {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+}
+
+#container1 {
+    background-image: url("../images/background-images1.png");
+    background-size: cover;
+    background-position: 50%;
+    z-index: 100;
+}
+
+#container2 {
+    background-image: url("../images/background-images2.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container3 {
+    background-image: url("../images/background-images3.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container4 {
+    background-image: url("../images/background-images4.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container5 {
+    background-image: url("../images/background-images5.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container6 {
+    background-image: url("../images/background-images6.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container7 {
+    background-image: url("../images/background-images7.png");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container8 {
+    background-image: url("../images/background-images8.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container9 {
+    background-image: url("../images/background-images9.png");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container10 {
+    background-image: url("../images/background-images10.jpeg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#container11 {
+    background-image: url("../images/background-images11.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.point-list {
+    position: absolute;
+    width: 80px;
+    height: 100vh;
+    right: 7%;
+    top: 10px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.point img {
+    width: 5vh;
+    height: 5vh;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    margin: 8px 0;
+}
+
+.point.active img {
+    width: 7vh;
+    height: 7vh;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.item {
+    height: 100%;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.margin-second {
+    height: 150px;
+}
+
+.img {
+    margin: 0;
+}
+
+.img img {
+    border-radius: 20px;
+}
+
+h1 {
+    font-weight: 800;
+    text-align: left;
+    width: 500px;
+    margin: 0;
+    font-size: 28px;
+}
+
+.text1 {
+    width: 400px;
+    height: auto;
+    font-size: 16px;
+    color: #1f2329;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.text2 {
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    color: #1f2329;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+}
